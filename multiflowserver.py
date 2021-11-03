@@ -8,11 +8,11 @@ class ClientThread(threading.Thread):
         threading.Thread.__init__(self)
         self.ip = ip
         self.port = port
-        print ("[+] New thread started for "+ip+":"+str(port)
+        print ("[+] New thread started for "+ip+":"+str(port))
 
 
     def run(self):    
-        print ("Connection from : "+ip+":"+str(port)
+        print ("Connection from : "+ip+":"+str(port))
 
         clientsock.send("\nWelcome to the server\n\n")
 
