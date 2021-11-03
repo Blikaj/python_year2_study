@@ -14,15 +14,21 @@ class ClientThread(threading.Thread):
     def run(self):    
         print ("Connection from : "+ip+":"+str(port))
 
-        clientsock.send("\nWelcome to the server\n\n")
-
         data = "emptydat"
 
         while len(data):
             data = clientsock.recv(1024)
-            print ("Client sent : "+data)
-            clientsock.send("You sent me : "+data)
+            datacheck = data.decode('utf-8')
+            print ("Client sent : "+datacheck)
 
+            if datacheck.upper == 'EXIT':
+                clientsock.send((data))
+                break
+            else:
+                if not data:
+                    break
+                else:
+                    clientsock.send((data))
         print ("Client disconnected...")
 
 host = "0.0.0.0"
