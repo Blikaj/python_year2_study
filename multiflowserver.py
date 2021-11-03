@@ -8,11 +8,11 @@ class ClientThread(threading.Thread):
         threading.Thread.__init__(self)
         self.ip = ip
         self.port = port
-        print "[+] New thread started for "+ip+":"+str(port)
+        print ("[+] New thread started for "+ip+":"+str(port)
 
 
     def run(self):    
-        print "Connection from : "+ip+":"+str(port)
+        print ("Connection from : "+ip+":"+str(port)
 
         clientsock.send("\nWelcome to the server\n\n")
 
@@ -23,7 +23,7 @@ class ClientThread(threading.Thread):
             print "Client sent : "+data
             clientsock.send("You sent me : "+data)
 
-        print "Client disconnected..."
+        print ("Client disconnected...")
 
 host = "0.0.0.0"
 port = 8080
@@ -37,7 +37,7 @@ threads = []
 
 while True:
     tcpsock.listen(4)
-    print "\nListening for incoming connections..."
+    print ("\nListening for incoming connections...")
     (clientsock, (ip, port)) = tcpsock.accept()
     newthread = ClientThread(ip, port)
     newthread.start()
