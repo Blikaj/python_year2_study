@@ -20,7 +20,7 @@ class ClientThread(threading.Thread):
 
         while len(data):
             data = clientsock.recv(1024)
-            print "Client sent : "+data
+            print ("Client sent : "+data)
             clientsock.send("You sent me : "+data)
 
         print ("Client disconnected...")
