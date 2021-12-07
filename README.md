@@ -3,8 +3,8 @@
 
 Все готовые к использованию программы находятся в своих ветках
 
-![Image alt](https://github.com/Blikaj/python_year2_study/flask_app/screenshots/flaskapp_1.png)
+![Image alt](https://github.com/Blikaj/python_year2_study/flask_app/screenshots/flaskapp1.png)
 
-![Image alt](https://github.com/Blikaj/python_year2_study/flask_app/screenshots/flaskapp_1.png)
+![Image alt](https://github.com/Blikaj/python_year2_study/flask_app/screenshots/flaskapp2.png)
 
-![Image alt](https://github.com/Blikaj/python_year2_study/flask_app/screenshots/flaskapp_1.png)
+![Image alt](https://github.com/Blikaj/python_year2_study/flask_app/screenshots/flaskapp3.png)
