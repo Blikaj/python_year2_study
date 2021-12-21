@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-
-Created on Tue Dec 17 16:00:08 2019
-
-
-
-@author: Елизавета
-
-"""
-
-
 
 #client
 
