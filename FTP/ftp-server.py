@@ -30,11 +30,11 @@ def process(req):
         except:
             return 'bad file request!'
     elif req[0] == 'mv':
-        src_path = os.path.join(dirname, req[1])
-        new_path = os.path.join(dirname, req[2])
-        if new_path.exists():
+        try:
+            src_path = os.path.join(dirname, req[1])
+            new_path = os.path.join(dirname, req[2])
             shutil.move(new_path, dst_path)
-        else:
+        except:
             return 'bad path request!'
     elif req[0] == 'rm':
         try:
