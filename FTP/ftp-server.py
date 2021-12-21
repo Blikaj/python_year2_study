@@ -1,10 +1,6 @@
 import socket
 import os
-'''
-pwd - показывает название рабочей директории
-ls - показывает содержимое текущей директории
-cat <filename> - отправляет содержимое файла
-'''
+
 
 dirname = os.path.join(os.getcwd(), 'docs')
 
