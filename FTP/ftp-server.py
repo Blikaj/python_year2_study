@@ -1,5 +1,7 @@
 import socket
 import os
+import shutil
+from pathlib import Path
 
 
 dirname = os.path.join(os.getcwd(), 'docs')
@@ -25,6 +27,28 @@ def process(req):
             f = open(filename, "r")
             msg = f.read()
             return str(msg)
+        except:
+            return 'bad file request!'
+    elif req[0] == 'mv':
+        src_path = os.path.join(dirname, req[1])
+        new_path = os.path.join(dirname, req[2])
+        if new_path.exists():
+            shutil.move(new_path, dst_path)
+        else:
+            return 'bad path request!'
+    elif req[0] == 'rm':
+        try:
+            path = os.path.join(dirname, req[1])
+            os.remove(path)
+        except:
+            return 'bad request!'
+    elif req[0] == 'touch':
+        try:
+            path = os.path.join(dirname, req[1])
+            my_file = open(path)
+            writing = os.path.join(dirname, req[2])
+            my_file.write(writing)
+            my_file.close()
         except:
             return 'bad file request!'
     elif req[0] == 'break':
