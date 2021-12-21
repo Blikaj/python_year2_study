@@ -1,17 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-
-Created on Tue Dec 17 15:55:48 2019
-
-
-
-@author: Елизавета
-
-"""
-
-
-
 #server
 
 
