@@ -3,12 +3,12 @@
 
 Все готовые к использованию программы находятся в своих ветках
 
-## Файловый менеджер: ветка Python-filemanager
-## Однопоточный и многопоточный эхо серверы: ветка Python-echoserver
-## Web-сервер: Web-server
-## FTP-сервер: FTP-сервер
-## Ассиметричное шифрование: Crypto-server
-## Flask-приложение: flask-app
+## [Файловый менеджер: ветка Python-filemanager](https://github.com/Blikaj/python_year2_study/tree/Python-Filemanager)
+## [Однопоточный и многопоточный эхо серверы: ветка Python-echoserver](https://github.com/Blikaj/python_year2_study/tree/Python-echoserver)
+## [Web-сервер: Web-server](https://github.com/Blikaj/python_year2_study/tree/Web-Server)
+## [FTP-сервер: FTP-сервер](https://github.com/Blikaj/python_year2_study/tree/FTP-server)
+## [Ассиметричное шифрование: Crypto-server](https://github.com/Blikaj/python_year2_study/tree/Crypto-server)
+## [Flask-приложение: flask-app](https://github.com/Blikaj/python_year2_study/tree/flask_app)
 
 
 Ответы на контрольные вопросы лабораторной работы №1:
