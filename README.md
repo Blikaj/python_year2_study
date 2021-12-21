@@ -1,6 +1,6 @@
 # python_year2_study
 Ветка веб-приложения flask
 
-<img width="671" alt="flaskapp1" src="https://user-images.githubusercontent.com/46620120/145104022-9748daa1-110d-470e-af13-44649b3edfcf.PNG">
+### [Отчёт по работе приложения](https://github.com/Blikaj/python_year2_study/blob/flask_app/Flask_app_readme.pdf)
 
 
